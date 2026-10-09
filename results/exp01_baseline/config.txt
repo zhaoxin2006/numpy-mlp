@@ -1,0 +1,15 @@
+experiment: exp01_baseline
+structure: [784, 128, 10]
+dropout: 0.0
+optimizer: SGD
+optimizer_config: {'lr': 0.1}
+loss_fn: cross_entropy
+epochs: 20
+batch_size: 64
+reg: 0.0, reg_type: None
+seed: 0
+patience: None
+best_val_acc: 0.9742
+best_epoch: 18
+test_loss: 0.0785
+test_acc: 0.9748

@@ -1,0 +1,16 @@
+experiment: exp22_adagrad
+structure: [784, 128, 10]
+dropout: 0.0
+optimizer: AdaGrad
+optimizer_config: {'lr': 0.01, 'eps': 1e-08}
+loss_fn: cross_entropy
+epochs: 40
+batch_size: 64
+reg: 0.0, reg_type: None
+seed: 0
+patience: None
+best_val_acc: 0.9718
+best_val_loss: 0.0935
+best_epoch: 40
+test_loss: 0.0818
+test_acc: 0.9756

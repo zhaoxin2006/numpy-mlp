@@ -1,0 +1,17 @@
+# 忽略数据文件
+mnist_split.npz
+
+# 忽略模型权重文件
+*.npz
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略虚拟环境
+venv/
+.venv/

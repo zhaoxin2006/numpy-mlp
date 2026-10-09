@@ -1,0 +1,16 @@
+experiment: exp12_loss_svm
+structure: [784, 128, 10]
+dropout: 0.0
+optimizer: SGD
+optimizer_config: {'lr': 0.1}
+loss_fn: svm_hinge
+epochs: 40
+batch_size: 64
+reg: 0.0, reg_type: None
+seed: 0
+patience: None
+best_val_acc: 0.9762
+best_val_loss: 0.0970
+best_epoch: 33
+test_loss: 0.0829
+test_acc: 0.9785

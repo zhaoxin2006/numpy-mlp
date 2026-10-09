@@ -1,0 +1,16 @@
+experiment: exp21_momentum
+structure: [784, 128, 10]
+dropout: 0.0
+optimizer: Momentum
+optimizer_config: {'lr': 0.1, 'beta': 0.9}
+loss_fn: cross_entropy
+epochs: 40
+batch_size: 64
+reg: 0.0, reg_type: None
+seed: 0
+patience: None
+best_val_acc: 0.9740
+best_val_loss: 0.0870
+best_epoch: 22
+test_loss: 0.0754
+test_acc: 0.9768

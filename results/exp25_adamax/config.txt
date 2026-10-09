@@ -1,0 +1,16 @@
+experiment: exp25_adamax
+structure: [784, 128, 10]
+dropout: 0.0
+optimizer: AdaMax
+optimizer_config: {'lr': 0.002, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08}
+loss_fn: cross_entropy
+epochs: 40
+batch_size: 64
+reg: 0.0, reg_type: None
+seed: 0
+patience: None
+best_val_acc: 0.9745
+best_val_loss: 0.0860
+best_epoch: 22
+test_loss: 0.0738
+test_acc: 0.9785

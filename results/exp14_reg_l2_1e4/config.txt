@@ -1,0 +1,16 @@
+experiment: exp14_reg_l2_1e4
+structure: [784, 128, 10]
+dropout: 0.0
+optimizer: SGD
+optimizer_config: {'lr': 0.1}
+loss_fn: cross_entropy
+epochs: 40
+batch_size: 64
+reg: 0.0001, reg_type: L2
+seed: 0
+patience: None
+best_val_acc: 0.9768
+best_val_loss: 0.1093
+best_epoch: 32
+test_loss: 0.0971
+test_acc: 0.9777

@@ -1,0 +1,15 @@
+experiment: exp04_struct_128
+structure: [784, 128, 10]
+dropout: 0.0
+optimizer: Adam
+optimizer_config: {'lr': 0.001, 'beta1': 0.9, 'beta2': 0.999, 'eps': 1e-08}
+loss_fn: cross_entropy
+epochs: 40
+batch_size: 64
+reg: 0.0, reg_type: None
+seed: 0
+patience: None
+best_val_acc: 0.9790
+best_epoch: 39
+test_loss: 0.1095
+test_acc: 0.9796
